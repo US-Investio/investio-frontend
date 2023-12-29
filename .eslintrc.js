@@ -4,10 +4,16 @@ const ERROR = 2;
 
 module.exports = {
   root: true,
+  env: {
+    browser: true,
+    'cypress/globals': true,
+  },
+  ignorePatterns: ['.eslintrc.js'],
   extends: [
     'eslint:recommended',
     'next/core-web-vitals',
     'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-type-checked',
     'plugin:cypress/recommended',
     'plugin:prettier/recommended',
     'plugin:react/recommended',
@@ -15,16 +21,14 @@ module.exports = {
   plugins: ['@typescript-eslint', 'cypress', 'prettier', 'react'],
   rules: {
     'prettier/prettier': WARNING,
-    'no-shadow': ERROR,
-    'no-unused-vars': [ERROR, { args: 'none' }],
+    'no-shadow': OFF,
+    '@typescript-eslint/no-shadow': ERROR,
     'react/react-in-jsx-scope': OFF,
-  },
-  env: {
-    browser: true,
-    'cypress/globals': true,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 9,
+    project: true,
+    tsconfigRootDir: __dirname,
   },
 };
