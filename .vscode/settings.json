@@ -1,0 +1,6 @@
+{
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "css.lint.important": "warning",
+    "css.lint.vendorPrefix": "ignore"
+}
