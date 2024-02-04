@@ -8,7 +8,7 @@ module.exports = {
     browser: true,
     'cypress/globals': true,
   },
-  ignorePatterns: ['.eslintrc.js'],
+  ignorePatterns: ['.eslintrc.js', 'next.config.js'],
   extends: [
     'eslint:recommended',
     'next/core-web-vitals',
