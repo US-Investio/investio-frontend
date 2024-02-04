@@ -1,0 +1,47 @@
+// Primary colors
+$primary-100: #ff832b;
+$primary-200: #ff994b;
+$primary-300: #ffa662;
+$primary-400: #ffb378;
+$primary-500: #ffc08e;
+$primary-600: #ffcca4;
+
+// Surface colors;
+$surface-100: #1b1844;
+$surface-200: #332d57;
+$surface-300: #4a446a;
+$surface-400: #625c7e;
+$surface-500: #7b7593;
+$surface-600: #948fa8;
+
+$red-light: #da1e28;
+$orange-light: #ff832b;
+$yellow-light: #f1c21b;
+$green-light: #198038;
+
+$red-dark: #fa4d56;
+$orange-dark: #ff832b;
+$yellow-dark: #f1c21b;
+$green-dark: #24a148;
+
+// Gray scale
+$black: #131516;
+$gray-900: #373d3f;
+$gray-800: #555f61;
+$gray-700: #6f7c80;
+$gray-600: #8c979a;
+$gray-500: #a7afb2;
+$gray-400: #c1c7c9;
+$gray-300: #c1c7c9;
+$gray-200: #dadedf;
+$gray-100: #f2f3f4;
+$white: #ffffff;
+
+// Font colors
+$font-light: $black;
+$font-dark: $gray-100;
+
+$border-light: $gray-200;
+$border-dark: $gray-800;
+
+$disabled: $gray-300;
